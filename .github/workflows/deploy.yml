@@ -46,6 +46,7 @@ jobs:
         with:
           context: ./core
           push: true
+          no-cache: true
           tags: |
             xiaofantuan/qq-farm-bot-ui:latest
             xiaofantuan/qq-farm-bot-ui:${{ github.run_number }}
